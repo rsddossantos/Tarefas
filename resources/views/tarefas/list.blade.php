@@ -14,17 +14,16 @@
                 <td style="width:70%">
                     @if($item->resolvido===1) <strike style="color:#8c8c8c">{{$item->titulo}}</strike> @else {{$item->titulo}} @endif
                 </td>
-                <td style="width:20%;text-align:right">
+                <td style="text-align:right;width:10%">
                     <a href="{{ route('tarefas.edit', ['id' =>$item->id]) }}">
                         <button class="btn btn-success">editar</button>
                     </a>
+                </td>
+                <td style="width:10%">
                     <a href="{{ route('tarefas.del', ['id' =>$item->id]) }}" onclick="return confirm('Deseja excluir essa tarefa?')">
                         <button class="btn btn-danger">excluir</button>
                     </a>
                 </td>
-
-
-
             </tr>
         @endforeach
         </table>
