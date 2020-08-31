@@ -1,0 +1,23 @@
+
+.header {
+    color: #8c8c8c;
+}
+.header a:link{
+    text-decoration:none;
+    color: #cb4d4d;
+}
+.newtask a {
+    color:#8c8c8c;
+    text-decoration:none;
+    font-size:18px;
+    padding-bottom:50px;
+}
+.newtask a:hover {
+    color:#cb4d4d;
+}
+td {
+    vertical-align: middle !important;
+}
+h3 {
+    color:#8c8c8c;
+}
