@@ -2,7 +2,7 @@
 
 ## Lista de Tarefas
 
-Gerenciador de tarefas com rotas para CRUD de tarefas - Laravel e Bootstrap
+Gerenciador de tarefas com rotas para CRUD - Laravel e Bootstrap
  
 - Criar uma base de dados de nome <strong>laravel1</strong> e importar 
 o arquivo <strong>laravel1.sql</strong>
