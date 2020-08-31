@@ -1,5 +1,3 @@
-<!-- Template do sistema-->
-
 <!DOCTYPE html>
 <html>
 <head>

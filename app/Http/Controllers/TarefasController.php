@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-// para acesso ao banco
 use Illuminate\Support\Facades\DB;
 
 class TarefasController extends Controller
